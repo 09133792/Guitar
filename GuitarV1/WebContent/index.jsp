@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -17,8 +18,9 @@
 		<tr>
 
 			<td height="30">
-				<form action="FindAllguitar">
-					<input name="pageNo" type="text" value=""> <input
+				<form action="dosearchbynum.jsp" method="post">
+					
+					请输入编号:<input name="pageNo" type="text" value=""> <input
 						type="submit" value="搜索">
 				</form>
 			</td>
@@ -44,9 +46,9 @@
 			<td align="center" valign="middle" bordercolor="#FFFFFF"><span
 				class="STYLE2">背面木料</span></td>
 		</tr>
-		<c:forEach items="${guitarlist }" var="guitar">
+		
 			<tr>
-				<td align="center" valign="middle" bordercolor="#FFFFFF">${guitar.seralNumber }</td>
+				<td align="center" valign="middle" bordercolor="#FFFFFF">${guitar.serialNumber }</td>
 				<td align="center" valign="middle" bordercolor="#FFFFFF">${guitar.price }</td>
 				<td align="center" valign="middle" bordercolor="#FFFFFF">${guitar.builder }</td>
 				<td align="center" valign="middle" bordercolor="#FFFFFF">${guitar.model }</td>
@@ -54,7 +56,7 @@
 				<td align="center" valign="middle" bordercolor="#FFFFFF">${guitar.backWood }</td>
 				<td align="center" valign="middle" bordercolor="#FFFFFF">${guitar.topWood }</td>
 			</tr>
-		</c:forEach>
+	
 	</table>
 </body>
 </html>
