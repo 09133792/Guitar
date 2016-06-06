@@ -3,4 +3,4 @@
 1.
 ![image](https://github.com/09133792/Guitar/tree/master/Duck/image/1.png)
 2.
-![image](https://github.com/09133792/Guitar/tree/master/Duck/image2.png)
+![image](https://github.com/09133792/Guitar/tree/master/Duck/image/2.png)
