@@ -12,3 +12,9 @@ GuitarV2管理系统
 ![image](https://github.com/09133792/Guitar/blob/master/image/2.png)
 3.
 ![image](https://github.com/09133792/Guitar/blob/master/image/guitar2.png)
+
+GuitarV2管理系统
+1.
+![image](https://github.com/09133792/Guitar/blob/master/image/a.png)
+2.
+![image](https://github.com/09133792/Guitar/blob/master/image/b.png)
